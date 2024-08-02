@@ -1,4 +1,4 @@
 SELECT CustomerName, Count(*) AS Total
-FROM Orders o, Customers c 
-WHERE c.CustomerID = o.CustomerID
+FROM Orders o INNER JOIN Customers c 
+ON c.CustomerID=o.CustomerID
 GROUP BY CustomerName;
