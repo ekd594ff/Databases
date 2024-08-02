@@ -3,7 +3,8 @@
 - Table : OrderDetails
 - Quest : 제품명,가격, 주문 갯수, 고객명 표시
 ```SQL
-SELECT ProductName, Price, Quantity, CustomerName FROM 
+SELECT ProductName, Price, Quantity, CustomerName
+FROM 
 (SELECT ps.ProductName, ps.Price, os.Quantity, os.OrderID
 FROM OrderDetails os INNER JOIN Products ps
 ON os.ProductID=ps.ProductID) a
