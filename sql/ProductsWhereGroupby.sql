@@ -1,0 +1,1 @@
+SELECT CategoryID, count(*) AS Total FROM Products GROUP BY CategoryID HAVING count(*) > 10;

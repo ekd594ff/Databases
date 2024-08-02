@@ -1,0 +1,3 @@
+CategoryName	Total
+Beverages 	12 
+Produce 	5 
