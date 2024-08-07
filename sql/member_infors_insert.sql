@@ -31,7 +31,10 @@ INSERT INTO MEMBER_HOBBY VALUES
 ('MH_4', 'M_2', 'HB_4'),
 ('MH_5', 'M_3', 'HB_5'),
 ('MH_6', 'M_3', 'HB_6'),
-('MH_7', 'M_4', 'HB_7');
+('MH_7', 'M_4', 'HB_7'),
+('MH_8', 'M_4', 'HB_8'),
+('MH_9', 'M_5', 'HB_9'),
+('MH_10', 'M_5', 'HB_10');
 
 INSERT INTO MEMBER_ADDRESS VALUES
 ('MA_1', 'M_1', 'ADDR_1'),
